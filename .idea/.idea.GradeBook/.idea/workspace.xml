@@ -8,7 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a61fff0-6f60-4540-8466-a6441c144966" name="Changes" comment="StandardGradeBookFix" />
+    <list default="true" id="3a61fff0-6f60-4540-8466-a6441c144966" name="Changes" comment="RankedGradeBook Into Get Letter grade with requirements mentioned below&#10;&#10; - [ ] Override `RankedGradeBook`'s `GetLetterGrade` method&#10; &#9;&#9;- [ ] Provide the appropriate grades based on how the input grade compares to other students.&#10; &#9;&#9;&#9;_(One way to solve this is to figure out how many students make up 20%, then loop through all the grades and check how many scored higher than the input average, every N students where N is that 20% value drop a letter grade.)_&#10; &#9;&#9;&#9;- If there are less than 5 students throw an `InvalidOperationException`.&#10; &#9;&#9;&#9;- Return A if the input grade is in the top 20% of the class.&#10; &#9;&#9;&#9;- Return B if the input grade is between the top 20 and 40% of the class.&#10; &#9;&#9;&#9;- Return C if the input grade is between the top 40 and 60% of the class.&#10; &#9;&#9;&#9;- Return D if the input grade is between the top 60 and 80% of the class.&#10; &#9;&#9;&#9;- Return F if the grade is below the top 80% of the class." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +89,7 @@
       <workItem from="1680621121078" duration="506000" />
       <workItem from="1680622160421" duration="4409000" />
       <workItem from="1680626591124" duration="597000" />
-      <workItem from="1680631462923" duration="330000" />
+      <workItem from="1680631462923" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="Type Property addition. &#10;&#10;- [✓] Add `Type` property&#10;&#9;&#9;- [✓ ] Add a new property `Type` to `BaseGradeBook`&#10;&#9;&#9;&#9;- This should use the name `Type`.&#10;&#9;&#9;&#9;- This should be of type `GradeBookType`.&#10;&#9;&#9;&#9;- This should use the `public` access modifier.">
       <created>1680625374993</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680631767554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="RankedGradeBook Into Get Letter grade with requirements mentioned below&#10;&#10; - [ ] Override `RankedGradeBook`'s `GetLetterGrade` method&#10; &#9;&#9;- [ ] Provide the appropriate grades based on how the input grade compares to other students.&#10; &#9;&#9;&#9;_(One way to solve this is to figure out how many students make up 20%, then loop through all the grades and check how many scored higher than the input average, every N students where N is that 20% value drop a letter grade.)_&#10; &#9;&#9;&#9;- If there are less than 5 students throw an `InvalidOperationException`.&#10; &#9;&#9;&#9;- Return A if the input grade is in the top 20% of the class.&#10; &#9;&#9;&#9;- Return B if the input grade is between the top 20 and 40% of the class.&#10; &#9;&#9;&#9;- Return C if the input grade is between the top 40 and 60% of the class.&#10; &#9;&#9;&#9;- Return D if the input grade is between the top 60 and 80% of the class.&#10; &#9;&#9;&#9;- Return F if the grade is below the top 80% of the class.">
+      <created>1680632183649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680632183649</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +171,8 @@
     <MESSAGE value="StandardGradeBook Added" />
     <MESSAGE value="Added RabjedGradeBook" />
     <MESSAGE value="StandardGradeBookFix" />
-    <option name="LAST_COMMIT_MESSAGE" value="StandardGradeBookFix" />
+    <MESSAGE value="RankedGradeBook Into Get Letter grade with requirements mentioned below&#10;&#10; - [ ] Override `RankedGradeBook`'s `GetLetterGrade` method&#10; &#9;&#9;- [ ] Provide the appropriate grades based on how the input grade compares to other students.&#10; &#9;&#9;&#9;_(One way to solve this is to figure out how many students make up 20%, then loop through all the grades and check how many scored higher than the input average, every N students where N is that 20% value drop a letter grade.)_&#10; &#9;&#9;&#9;- If there are less than 5 students throw an `InvalidOperationException`.&#10; &#9;&#9;&#9;- Return A if the input grade is in the top 20% of the class.&#10; &#9;&#9;&#9;- Return B if the input grade is between the top 20 and 40% of the class.&#10; &#9;&#9;&#9;- Return C if the input grade is between the top 40 and 60% of the class.&#10; &#9;&#9;&#9;- Return D if the input grade is between the top 60 and 80% of the class.&#10; &#9;&#9;&#9;- Return F if the grade is below the top 80% of the class." />
+    <option name="LAST_COMMIT_MESSAGE" value="RankedGradeBook Into Get Letter grade with requirements mentioned below&#10;&#10; - [ ] Override `RankedGradeBook`'s `GetLetterGrade` method&#10; &#9;&#9;- [ ] Provide the appropriate grades based on how the input grade compares to other students.&#10; &#9;&#9;&#9;_(One way to solve this is to figure out how many students make up 20%, then loop through all the grades and check how many scored higher than the input average, every N students where N is that 20% value drop a letter grade.)_&#10; &#9;&#9;&#9;- If there are less than 5 students throw an `InvalidOperationException`.&#10; &#9;&#9;&#9;- Return A if the input grade is in the top 20% of the class.&#10; &#9;&#9;&#9;- Return B if the input grade is between the top 20 and 40% of the class.&#10; &#9;&#9;&#9;- Return C if the input grade is between the top 40 and 60% of the class.&#10; &#9;&#9;&#9;- Return D if the input grade is between the top 60 and 80% of the class.&#10; &#9;&#9;&#9;- Return F if the grade is below the top 80% of the class." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
