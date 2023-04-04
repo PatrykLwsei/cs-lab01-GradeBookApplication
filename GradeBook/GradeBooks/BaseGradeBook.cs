@@ -73,7 +73,8 @@ namespace GradeBook.GradeBooks
                 Console.WriteLine("{0} : {1} : {2}", student.Name, student.Type, student.Enrollment);
             }
         }
-
+        
+        public bool IsWeighted { get; set; }
         public static BaseGradeBook Load(string name)
         {
             if (!File.Exists(name + ".gdbk"))
@@ -102,7 +103,7 @@ namespace GradeBook.GradeBooks
                 }
             }
         }
-
+        
         public virtual double GetGPA(char letterGrade, StudentType studentType)
         {
             switch (letterGrade)
