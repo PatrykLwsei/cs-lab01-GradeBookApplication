@@ -19,7 +19,7 @@ namespace GradeBook.GradeBooks
             Name = name;
             Students = new List<Student>();
         }
-
+        public GradeBookType Type {get; set;}
         public void AddStudent(Student student)
         {
             if (string.IsNullOrEmpty(student.Name))
@@ -52,7 +52,7 @@ namespace GradeBook.GradeBooks
             }
             student.AddGrade(score);
         }
-
+        
         public void RemoveGrade(string name, double score)
         {
             if (string.IsNullOrEmpty(name))
@@ -91,7 +91,6 @@ namespace GradeBook.GradeBooks
                 }
             }
         }
-
         public void Save()
         {
             using (var file = new FileStream(Name + ".gdbk", FileMode.Create, FileAccess.Write))
