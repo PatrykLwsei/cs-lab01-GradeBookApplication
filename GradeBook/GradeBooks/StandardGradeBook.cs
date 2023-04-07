@@ -4,17 +4,11 @@ namespace GradeBook.GradeBooks
 {
     public class StandardGradeBook : BaseGradeBook
     {
-        private bool _isHonors;
-        
-        public StandardGradeBook(string name, bool isHonors) : base(name)
+
+        public StandardGradeBook(string name, bool isWeighted) : base(name, isWeighted)
         {
             Type = GradeBookType.Standard;
-            _isHonors = isHonors;
         }
-
-        public StandardGradeBook(string name) : base(name)
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }
