@@ -11,8 +11,6 @@
     <list default="true" id="3a61fff0-6f60-4540-8466-a6441c144966" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GradeBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GradeBook/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GradeBook/GradeBooks/BaseGradeBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GradeBook/GradeBooks/BaseGradeBook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GradeBook/GradeBooks/RankedGradeBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GradeBook/GradeBooks/RankedGradeBook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GradeBook/GradeBooks/StandardGradeBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GradeBook/GradeBooks/StandardGradeBook.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,8 @@
       <workItem from="1680622160421" duration="4409000" />
       <workItem from="1680626591124" duration="597000" />
       <workItem from="1680631462923" duration="2620000" />
-      <workItem from="1680876048658" duration="945000" />
+      <workItem from="1680876048658" duration="1218000" />
+      <workItem from="1680896777628" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="Type Property addition. &#10;&#10;- [✓] Add `Type` property&#10;&#9;&#9;- [✓ ] Add a new property `Type` to `BaseGradeBook`&#10;&#9;&#9;&#9;- This should use the name `Type`.&#10;&#9;&#9;&#9;- This should be of type `GradeBookType`.&#10;&#9;&#9;&#9;- This should use the `public` access modifier.">
       <created>1680625374993</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680633489130</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Few changes for the various Bools.">
+      <created>1680877203179</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680877203179</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +224,8 @@
     <MESSAGE value="Help Command Update" />
     <MESSAGE value="Abstract added to the BaseGradeBook Public Class" />
     <MESSAGE value="Weighted added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Weighted added" />
+    <MESSAGE value="Few changes for the various Bools." />
+    <option name="LAST_COMMIT_MESSAGE" value="Few changes for the various Bools." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
