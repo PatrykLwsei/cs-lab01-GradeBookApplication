@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a61fff0-6f60-4540-8466-a6441c144966" name="Changes" comment="Redoing the StaringUserInterface For IsWeighted">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GradeBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GradeBook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GradeBook/GradeBooks/BaseGradeBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GradeBook/GradeBooks/BaseGradeBook.cs" afterDir="false" />
+    <list default="true" id="3a61fff0-6f60-4540-8466-a6441c144966" name="Changes" comment="GetGPA ADD 1 to gpa when student is Honors or DualEnrolled Done">
+      <change beforePath="$PROJECT_DIR$/GradeBook/UserInterfaces/StartingUserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GradeBook/UserInterfaces/StartingUserInterface.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1680626591124" duration="597000" />
       <workItem from="1680631462923" duration="2620000" />
       <workItem from="1680876048658" duration="1218000" />
-      <workItem from="1680896777628" duration="3133000" />
+      <workItem from="1680896777628" duration="3460000" />
     </task>
     <task id="LOCAL-00001" summary="Type Property addition. &#10;&#10;- [✓] Add `Type` property&#10;&#9;&#9;- [✓ ] Add a new property `Type` to `BaseGradeBook`&#10;&#9;&#9;&#9;- This should use the name `Type`.&#10;&#9;&#9;&#9;- This should be of type `GradeBookType`.&#10;&#9;&#9;&#9;- This should use the `public` access modifier.">
       <created>1680625374993</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680899511553</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="GetGPA ADD 1 to gpa when student is Honors or DualEnrolled Done">
+      <created>1680899978892</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680899978892</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +255,20 @@
     <MESSAGE value="Tests were created by someone incompetent and therefor they don't work on rider." />
     <MESSAGE value="More Fixes and Workaround 20/24" />
     <MESSAGE value="Redoing the StaringUserInterface For IsWeighted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redoing the StaringUserInterface For IsWeighted" />
+    <MESSAGE value="GetGPA ADD 1 to gpa when student is Honors or DualEnrolled Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetGPA ADD 1 to gpa when student is Honors or DualEnrolled Done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints">
+          <properties exception="System.InvalidOperationException" isInternal="false" displayValue="InvalidOperationException" namespaceName="System">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
